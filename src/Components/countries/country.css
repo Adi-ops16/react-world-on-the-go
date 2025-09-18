@@ -1,0 +1,29 @@
+.country {
+    border: 2px solid rgba(128, 128, 128, 0.699);
+    border-radius: 24px;
+    box-shadow: 1px 2px 10px black;
+    padding: 24px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightslategrey;
+}
+.btn{
+    padding: 5px 20px;
+    border-radius: 8px;
+    background-color: rgba(255, 0, 0, 0.797);
+    color: white;
+    font-weight: medium;
+    border:none;
+    font-family: 'Times New Roman', Times, serif;
+    transition: 0.5s;
+}
+.btn:hover{
+    background-color: grey;
+    cursor: pointer;
+    color: white;
+    transform:scale(1.1);
+    transition: 0.5s;
+}
